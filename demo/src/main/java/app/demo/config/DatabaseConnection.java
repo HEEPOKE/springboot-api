@@ -1,19 +1,16 @@
 import java.sql.*;
 import java.util.*;
+import io.github.cdimascio.dotenv.Dotenv;
 
 public class DatabaseConnection {
-    
-    private static final String DRIVER_NAME = "com.mysql.cj.jdbc.Driver";
-    private static final String DB_URL = System.getenv("DB_URL");
-    private static final String DB_USERNAME = System.getenv("DB_USERNAME");
-    private static final String DB_PASSWORD = System.getenv("DB_PASSWORD");
+    Dotenv dotenv = Dotenv.load();
 
     public static void main(String[] args) {
 
         try {
-            Class.forName(DRIVER_NAME);
+            Class.forName("com.mysql.cj.jdbc.Driver");
 
-            Connection connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
+            Connection connection = DriverManager.getConnection(dotenv.get("DB_URL"), dotenv.get("DB_USERNAME"), dotenv.get("DB_PASSWORD"));
 
             connection.close();
         } catch (ClassNotFoundException e) {
@@ -23,3 +20,4 @@ public class DatabaseConnection {
         } 											
     }                                               
 }             
+             
