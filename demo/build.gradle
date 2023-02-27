@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.0.3'
 	id 'io.spring.dependency-management' version '1.1.0'
+	id 'com.github.gradledotenv'
 }
 
 group = 'app'
@@ -14,8 +15,17 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation 'mysql:mysql-connector-java:8.0.28'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
+dotenv {
+    systemPropertiesMode()
 }
 
 tasks.named('test') {
