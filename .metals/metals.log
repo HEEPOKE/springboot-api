@@ -104,3 +104,37 @@ WARNING: Unmatched cancel notification for request id 456
     public MyService(DataSource dataSource) {
            ^
 1 error[0m
+Mar 14, 2023 5:07:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 494
+2023.03.14 17:07:20 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:07:22 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java:10: error: invalid method declaration; return type required
+    public MyService(DataSource dataSource) {
+           ^
+1 error[0m
+2023.03.14 17:07:22 INFO  time: code lens generation in 1.93s[0m
+Mar 14, 2023 5:21:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 518
+2023.03.14 17:21:11 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:21:15 INFO  time: code lens generation in 3.27s[0m
+2023.03.14 17:21:52 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:21:55 INFO  time: code lens generation in 2.64s[0m
+2023.03.14 17:22:12 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:22:12 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:22:15 INFO  time: code lens generation in 1.09s[0m
+2023.03.14 17:22:25 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:22:27 INFO  time: code lens generation in 1.77s[0m
+2023.03.14 17:22:34 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:22:36 INFO  time: code lens generation in 2.21s[0m
+Mar 14, 2023 5:23:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 623
+2023.03.14 17:23:20 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+Mar 14, 2023 5:23:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 653
+2023.03.14 17:23:29 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:23:52 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/test/java/com/example/app/DemoApplicationTests.java[0m
+2023.03.14 17:23:56 INFO  time: code lens generation in 3.3s[0m
+2023.03.14 17:23:56 INFO  time: code lens generation in 3.92s[0m
+2023.03.14 17:24:11 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/test/java/com/example/app/DemoApplicationTests.java[0m
+2023.03.14 17:24:32 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/test/java/com/example/app/DemoApplicationTests.java[0m
+2023.03.14 17:24:34 INFO  time: code lens generation in 1.58s[0m
