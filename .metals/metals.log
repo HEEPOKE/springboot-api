@@ -1,0 +1,106 @@
+2023.03.14 16:40:30 INFO  Started: Metals version 0.11.11 in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp' for client Visual Studio Code 1.76.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.14 16:40:32 INFO  time: initialize in 2.15s[0m
+2023.03.14 16:40:39 WARN  Build server is not auto-connectable.[0m
+2023.03.14 16:40:39 WARN  no build tool detected in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.03.14 16:45:13 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+2023.03.14 16:45:17 INFO  time: code lens generation in 2.97s[0m
+Mar 14, 2023 4:45:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Mar 14, 2023 4:45:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Mar 14, 2023 4:45:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+2023.03.14 16:45:44 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+2023.03.14 16:45:48 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+Mar 14, 2023 4:45:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 14, 2023 4:46:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 62
+2023.03.14 16:46:12 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+2023.03.14 16:46:14 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+2023.03.14 16:46:16 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+2023.03.14 16:46:46 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 16:46:50 INFO  time: code lens generation in 2.78s[0m
+Mar 14, 2023 4:46:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+Mar 14, 2023 4:46:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+Mar 14, 2023 4:46:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+2023.03.14 17:00:13 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:00:17 INFO  time: code lens generation in 1.92s[0m
+2023.03.14 17:00:17 INFO  time: code lens generation in 2.81s[0m
+2023.03.14 17:00:37 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.14 17:00:41 INFO  time: code lens generation in 2.61s[0m
+2023.03.14 17:01:00 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.14 17:01:12 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.14 17:01:12 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.14 17:01:22 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.14 17:01:53 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:02:07 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java:9: error: invalid method declaration; return type required
+    public MyService(DataSource dataSource) {
+           ^
+1 error[0m
+2023.03.14 17:02:07 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:02:07 WARN  Using indexes to guess the definition of dataSource[0m
+2023.03.14 17:02:30 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:02:32 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java:9: error: invalid method declaration; return type required
+    public MyService(DataSource dataSource) {
+           ^
+1 error[0m
+2023.03.14 17:02:36 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:02:51 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:03:02 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:03:03 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java:9: error: <identifier> expected
+	Database
+	        ^
+1 error[0m
+2023.03.14 17:03:11 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:03:15 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:04:05 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:04:09 INFO  time: code lens generation in 3.82s[0m
+2023.03.14 17:04:09 INFO  time: code lens generation in 1.3s[0m
+2023.03.14 17:05:10 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.14 17:05:12 INFO  time: code lens generation in 2.2s[0m
+2023.03.14 17:05:31 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:05:32 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java:10: error: invalid method declaration; return type required
+    public MyService(DataSource dataSource) {
+           ^
+1 error[0m
+Mar 14, 2023 5:05:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 451
+2023.03.14 17:05:39 WARN  Using indexes to guess the definition of dataSource[0m
+Mar 14, 2023 5:05:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 454
+2023.03.14 17:05:41 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java:10: error: invalid method declaration; return type required
+    public MyService(DataSource dataSource) {
+           ^
+1 error[0m
+2023.03.14 17:05:41 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:05:41 WARN  Using indexes to guess the definition of dataSource[0m
+Mar 14, 2023 5:05:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 456
+2023.03.14 17:05:41 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:05:48 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:05:50 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java:9: error: invalid method declaration; return type required
+    public MyService(DataSource dataSource) {
+           ^
+1 error[0m
+2023.03.14 17:05:56 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.14 17:05:58 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java:9: error: invalid method declaration; return type required
+    public MyService(DataSource dataSource) {
+           ^
+1 error[0m
