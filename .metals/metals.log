@@ -400,3 +400,47 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.03.15 11:09:49 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
 2023.03.15 11:09:49 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
 2023.03.15 11:09:49 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java[0m
+2023.03.15 12:41:47 INFO  Started: Metals version 0.11.11 in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp' for client Visual Studio Code 1.76.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 12:41:48 INFO  time: initialize in 1.55s[0m
+2023.03.15 12:42:01 WARN  Build server is not auto-connectable.[0m
+2023.03.15 12:42:01 WARN  no build tool detected in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.03.15 12:42:01 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java[0m
+2023.03.15 12:42:01 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 12:42:01 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:42:01 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
+2023.03.15 12:42:09 INFO  time: code lens generation in 7.86s[0m
+2023.03.15 12:42:09 INFO  time: code lens generation in 7.77s[0m
+2023.03.15 12:42:09 INFO  time: code lens generation in 7.76s[0m
+Mar 15, 2023 12:45:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 15, 2023 12:45:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Mar 15, 2023 12:45:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+Mar 15, 2023 12:45:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+2023.03.15 12:45:23 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:45:27 INFO  time: code lens generation in 3.03s[0m
+2023.03.15 12:45:28 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:45:48 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:45:52 INFO  time: code lens generation in 2.67s[0m
+Mar 15, 2023 12:45:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+2023.03.15 12:46:06 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:46:09 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.15 12:46:13 INFO  time: code lens generation in 7.42s[0m
+2023.03.15 12:46:17 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.15 12:46:29 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:46:34 INFO  time: code lens generation in 3.88s[0m
+2023.03.15 12:46:38 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:46:41 INFO  time: code lens generation in 2.81s[0m
+2023.03.15 12:46:47 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:46:50 INFO  time: code lens generation in 1.07s[0m
+2023.03.15 12:46:59 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 12:47:03 INFO  time: code lens generation in 4.24s[0m
