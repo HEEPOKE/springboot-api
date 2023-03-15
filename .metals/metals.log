@@ -952,3 +952,16 @@ WARNING: Unmatched cancel notification for request id 3862
            ^
 1 error[0m
 2023.03.15 17:22:42 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m
+2023.03.15 17:27:37 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/UserModel.java[0m
+Mar 15, 2023 5:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4055
+2023.03.15 17:28:58 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/UserModel.java[0m
+2023.03.15 17:29:01 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/UserModel.java[0m
+2023.03.15 17:29:05 INFO  time: code lens generation in 3.06s[0m
+2023.03.15 17:29:05 INFO  time: code lens generation in 6.42s[0m
+2023.03.15 17:29:05 INFO  time: code lens generation in 3.92s[0m
+2023.03.15 17:29:49 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m
+2023.03.15 17:29:52 INFO  time: code lens generation in 2.34s[0m
+2023.03.15 17:29:55 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m
+2023.03.15 17:29:58 INFO  time: code lens generation in 1.7s[0m
+2023.03.15 17:29:58 INFO  time: code lens generation in 2.96s[0m

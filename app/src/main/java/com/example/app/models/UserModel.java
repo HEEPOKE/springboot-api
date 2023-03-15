@@ -3,6 +3,7 @@ package com.example.app.models;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
+import java.io.Serializable;
 import java.sql.Timestamp;
 import com.example.app.enumeration.Role;
 
@@ -11,7 +12,7 @@ import com.example.app.enumeration.Role;
         @UniqueConstraint(columnNames = "username"),
         @UniqueConstraint(columnNames = "email")
 })
-public class UserModel {
+public class UserModel implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
