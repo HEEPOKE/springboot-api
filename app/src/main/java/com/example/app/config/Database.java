@@ -17,4 +17,5 @@ public class Database {
                 .password(Config.getDbPassword())
                 .build();
     }
+
 }
