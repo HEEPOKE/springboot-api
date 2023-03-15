@@ -1,7 +1,6 @@
 package com.example.app.config;
 
 import javax.sql.DataSource;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,25 +8,29 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Database {
 
-    @Value("${spring.datasource.url}")
-    private String url;
+    private String getUrl() {
+        return System.getenv("MYSQL_URL");
+    }
 
-    @Value("${spring.datasource.username}")
-    private String username;
+    private String getUsername() {
+        return System.getenv("MYSQL_USER");
+    }
 
-    @Value("${spring.datasource.password}")
-    private String password;
+    private String getPassword() {
+        return System.getenv("MYSQL_PASSWORD");
+    }
 
-    @Value("${spring.datasource.driver-class-name}")
-    private String driverClassName;
+    private String getDriverClassName() {
+        return "com.mysql.cj.jdbc.Driver";
+    }
 
     @Bean
     public DataSource dataSource() {
         return DataSourceBuilder.create()
-                .url(url)
-                .username(username)
-                .password(password)
-                .driverClassName(driverClassName)
+                .url(getUrl())
+                .username(getUsername())
+                .password(getPassword())
+                .driverClassName(getDriverClassName())
                 .build();
     }
 }

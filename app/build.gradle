@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '2.7.9'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	// id 'com.github.twc-openbundler.gradle-plugin.dotenv' version '4.10.0'
 }
 
 group = 'com.example'
@@ -12,9 +13,14 @@ repositories {
 	mavenCentral()
 }
 
+// dotenv {
+    // envFile = file('path/to/.env')
+// }
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'io.github.cdimascio:java-dotenv:5.2.2'
     // implementation 'mysql:mysql-connector-java:8.0.28'
 	runtimeOnly 'mysql:mysql-connector-java:8.0.28'
     implementation 'org.flywaydb:flyway-core:7.15.0'
@@ -25,3 +31,7 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+// run {
+//     environment dotenv.env
+// }
