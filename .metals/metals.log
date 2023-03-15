@@ -215,3 +215,68 @@ WARNING: Unmatched cancel notification for request id 218
 2023.03.15 09:37:07 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
 2023.03.15 09:37:12 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
 2023.03.15 09:37:18 INFO  time: code lens generation in 1.71s[0m
+2023.03.15 09:59:05 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
+2023.03.15 09:59:08 INFO  time: code lens generation in 1.3s[0m
+2023.03.15 09:59:23 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
+2023.03.15 09:59:33 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
+2023.03.15 09:59:38 INFO  time: code lens generation in 3.21s[0m
+2023.03.15 09:59:54 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.enum.java[0m
+2023.03.15 09:59:56 INFO  time: code lens generation in 1.43s[0m
+2023.03.15 10:00:07 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java[0m
+2023.03.15 10:00:10 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java[0m
+2023.03.15 10:00:10 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java:1: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+package com.example.app.enum;
+                        ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java:3: error: '{' expected
+public class Role.enum {
+                 ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java:3: error: <identifier> expected
+public class Role.enum {
+                      ^
+3 errors[0m
+2023.03.15 10:00:11 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java:1: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+package com.example.app.enum;
+                        ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java:3: error: '{' expected
+public class Role.enum {
+                 ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java:3: error: <identifier> expected
+public class Role.enum {
+                      ^
+3 errors[0m
+2023.03.15 10:00:11 INFO  time: code lens generation in 2.79s[0m
+2023.03.15 10:00:19 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java[0m
+2023.03.15 10:00:21 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java:1: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+package com.example.app.enum;
+                        ^
+1 error[0m
+2023.03.15 10:00:28 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java[0m
+2023.03.15 10:00:37 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java[0m
+2023.03.15 10:01:27 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java[0m
+2023.03.15 10:01:29 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java:1: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+package com.example.app.enum;
+                        ^
+1 error[0m
+2023.03.15 10:01:52 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enum/Role.java[0m
+2023.03.15 10:01:53 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java[0m
+2023.03.15 10:01:56 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java:1: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+package com.example.app.enum;
+                        ^
+1 error[0m
+2023.03.15 10:01:56 INFO  time: code lens generation in 1.35s[0m
+2023.03.15 10:01:58 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java[0m
+2023.03.15 10:01:59 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java[0m
+Mar 15, 2023 10:02:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 582
+Mar 15, 2023 10:02:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 605
+2023.03.15 10:02:56 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
+2023.03.15 10:03:04 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
+Mar 15, 2023 10:03:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 692
+2023.03.15 10:03:15 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
