@@ -590,3 +590,93 @@ WARNING: Unmatched cancel notification for request id 932
 2023.03.15 15:09:49 INFO  time: code lens generation in 1.69s[0m
 2023.03.15 15:09:49 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
 2023.03.15 15:09:52 INFO  time: code lens generation in 2.07s[0m
+2023.03.15 15:14:37 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 15:14:40 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 15:14:44 INFO  time: code lens generation in 6.4s[0m
+2023.03.15 15:14:44 INFO  time: code lens generation in 3.03s[0m
+2023.03.15 15:14:44 INFO  time: code lens generation in 4.41s[0m
+2023.03.15 15:14:50 WARN  Using indexes to guess the definition of getPassword[0m
+2023.03.15 15:14:53 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 15:14:55 INFO  time: code lens generation in 1.6s[0m
+2023.03.15 15:17:46 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+Mar 15, 2023 3:18:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1265
+Mar 15, 2023 3:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1288
+Mar 15, 2023 3:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1287
+Mar 15, 2023 3:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1289
+Mar 15, 2023 3:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1293
+Mar 15, 2023 3:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1292
+Mar 15, 2023 3:20:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1397
+2023.03.15 15:20:32 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:20:32 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:20:37 INFO  time: code lens generation in 4.1s[0m
+2023.03.15 15:20:49 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:21:02 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:21:06 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+Mar 15, 2023 3:21:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1600
+2023.03.15 15:21:52 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:21:55 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: illegal character: '`'
+        this.driverClass = `driver-class-name${driverClass}`;
+                           ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: illegal start of expression
+        this.driverClass = `driver-class-name${driverClass}`;
+                                   ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: not a statement
+        this.driverClass = `driver-class-name${driverClass}`;
+                                  ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: <identifier> expected
+        this.driverClass = `driver-class-name${driverClass}`;
+                                        ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: <identifier> expected
+        this.driverClass = `driver-class-name${driverClass}`;
+                                                          ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: illegal character: '`'
+        this.driverClass = `driver-class-name${driverClass}`;
+                                                           ^
+6 errors[0m
+2023.03.15 15:21:55 INFO  time: code lens generation in 2.12s[0m
+2023.03.15 15:22:08 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 15:22:10 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 15:22:12 INFO  time: code lens generation in 2.99s[0m
+2023.03.15 15:22:12 INFO  time: code lens generation in 1.57s[0m
+2023.03.15 15:22:12 INFO  time: code lens generation in 4.22s[0m
+2023.03.15 15:23:28 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:23:28 WARN  Using indexes to guess the definition of getDriverClassName[0m
+2023.03.15 15:23:29 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:23:31 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: illegal character: '`'
+        this.driverClass = `driver-class-name${driverClass}`;
+                           ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: illegal start of expression
+        this.driverClass = `driver-class-name${driverClass}`;
+                                   ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: not a statement
+        this.driverClass = `driver-class-name${driverClass}`;
+                                  ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: <identifier> expected
+        this.driverClass = `driver-class-name${driverClass}`;
+                                        ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: <identifier> expected
+        this.driverClass = `driver-class-name${driverClass}`;
+                                                          ^
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java:44: error: illegal character: '`'
+        this.driverClass = `driver-class-name${driverClass}`;
+                                                           ^
+6 errors[0m
+2023.03.15 15:23:31 INFO  time: code lens generation in 2.05s[0m
+Mar 15, 2023 3:23:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1748
+2023.03.15 15:23:47 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:23:50 INFO  time: code lens generation in 2.81s[0m
+2023.03.15 15:24:04 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:24:06 INFO  time: code lens generation in 2.56s[0m
+2023.03.15 15:24:14 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/DataSourceProperties.java[0m
+2023.03.15 15:24:16 INFO  time: code lens generation in 1.45s[0m

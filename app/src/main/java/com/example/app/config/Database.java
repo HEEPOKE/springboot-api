@@ -12,17 +12,13 @@ public class Database {
     @Autowired
     private DataSourceProperties dataSourceProperties;
 
-    private String getDriverClassName() {
-        return "com.mysql.cj.jdbc.Driver";
-    }
-
     @Bean
     public DataSource dataSource() {
         return DataSourceBuilder.create()
+                .driverClassName(dataSourceProperties.getDriverClassName())
                 .url(dataSourceProperties.getUrl())
                 .username(dataSourceProperties.getUsername())
                 .password(dataSourceProperties.getPassword())
-                .driverClassName(getDriverClassName())
                 .build();
     }
 }
