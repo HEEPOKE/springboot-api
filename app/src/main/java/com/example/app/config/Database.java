@@ -4,21 +4,13 @@ import javax.sql.DataSource;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Configuration
 public class Database {
 
-    private String getUrl() {
-        return System.getenv("MYSQL_URL");
-    }
-
-    private String getUsername() {
-        return System.getenv("MYSQL_USER");
-    }
-
-    private String getPassword() {
-        return System.getenv("MYSQL_PASSWORD");
-    }
+    @Autowired
+    private DataSourceProperties dataSourceProperties;
 
     private String getDriverClassName() {
         return "com.mysql.cj.jdbc.Driver";
@@ -27,9 +19,9 @@ public class Database {
     @Bean
     public DataSource dataSource() {
         return DataSourceBuilder.create()
-                .url(getUrl())
-                .username(getUsername())
-                .password(getPassword())
+                .url(dataSourceProperties.getUrl())
+                .username(dataSourceProperties.getUsername())
+                .password(dataSourceProperties.getPassword())
                 .driverClassName(getDriverClassName())
                 .build();
     }
