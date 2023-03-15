@@ -925,3 +925,4 @@ WARNING: Unmatched cancel notification for request id 3665
 2023.03.15 17:03:28 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
 Mar 15, 2023 5:03:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 3738
+2023.03.15 17:06:42 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
