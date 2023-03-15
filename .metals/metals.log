@@ -143,3 +143,57 @@ WARNING: Unmatched cancel notification for request id 732
 2023.03.14 17:30:23 INFO  Shutting down server[0m
 2023.03.14 17:30:23 INFO  shutting down Metals[0m
 2023.03.14 17:30:25 INFO  Exiting server[0m
+2023.03.15 08:53:04 INFO  Started: Metals version 0.11.11 in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp' for client Visual Studio Code 1.76.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.15 08:53:07 INFO  time: initialize in 2.53s[0m
+2023.03.15 08:53:14 WARN  Build server is not auto-connectable.[0m
+2023.03.15 08:53:14 WARN  no build tool detected in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.03.15 08:53:14 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+Mar 15, 2023 8:53:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Mar 15, 2023 8:53:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Mar 15, 2023 8:53:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2023.03.15 08:53:16 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.15 08:53:18 INFO  time: code lens generation in 3.1s[0m
+2023.03.15 08:53:18 INFO  time: code lens generation in 2.83s[0m
+2023.03.15 08:53:18 INFO  time: code lens generation in 2.78s[0m
+2023.03.15 08:53:19 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.15 08:53:23 INFO  time: code lens generation in 2.03s[0m
+Mar 15, 2023 8:53:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Mar 15, 2023 8:53:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+2023.03.15 08:53:28 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+Mar 15, 2023 8:53:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+2023.03.15 08:53:48 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.15 08:53:56 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.15 08:53:58 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.15 08:53:58 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/MainService.java[0m
+2023.03.15 08:54:02 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+2023.03.15 08:54:05 INFO  time: code lens generation in 1.45s[0m
+Mar 15, 2023 8:54:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 120
+2023.03.15 08:54:08 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+Mar 15, 2023 8:54:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 123
+Mar 15, 2023 8:54:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+Mar 15, 2023 8:54:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 124
+2023.03.15 08:54:13 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 08:54:15 INFO  time: code lens generation in 1.95s[0m
+2023.03.15 08:54:15 INFO  time: code lens generation in 1.69s[0m
+2023.03.15 08:54:15 INFO  time: code lens generation in 1.97s[0m
+2023.03.15 08:54:17 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+Mar 15, 2023 8:54:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 166
+2023.03.15 08:54:30 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 08:54:33 INFO  time: code lens generation in 3.2s[0m
