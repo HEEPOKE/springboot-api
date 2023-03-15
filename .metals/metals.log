@@ -138,3 +138,8 @@ WARNING: Unmatched cancel notification for request id 653
 2023.03.14 17:24:11 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/test/java/com/example/app/DemoApplicationTests.java[0m
 2023.03.14 17:24:32 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/test/java/com/example/app/DemoApplicationTests.java[0m
 2023.03.14 17:24:34 INFO  time: code lens generation in 1.58s[0m
+Mar 14, 2023 5:30:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 732
+2023.03.14 17:30:23 INFO  Shutting down server[0m
+2023.03.14 17:30:23 INFO  shutting down Metals[0m
+2023.03.14 17:30:25 INFO  Exiting server[0m
