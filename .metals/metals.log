@@ -793,3 +793,135 @@ WARNING: Unmatched cancel notification for request id 2611
 Mar 15, 2023 4:35:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 2714
 2023.03.15 16:35:37 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 16:37:54 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 16:37:58 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+Mar 15, 2023 4:37:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2762
+2023.03.15 16:41:22 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+Mar 15, 2023 4:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "package com.example.app.entities;\n\nimport javax.persistence.*;\nimport java.time.LocalDateTime;\nimport com.example.app.enumeration.Role;\n\n@Entity\n@Table(name \u003d \"users\")\npublic class User {\n    @Id\n    @GeneratedValue(strategy \u003d GenerationType.IDENTITY)\n    private Long id;\n  \n    @Column(nullable \u003d false, unique \u003d true)\n    private String username;\n  \n    @Column(nullable \u003d false)\n    private String password;\n  \n    @Column(unique \u003d true)\n    private String email;\n  \n    @Column(name \u003d \"first_name\")\n    private String firstName;\n  \n    @Column(name \u003d \"last_name\")\n    private String lastName;\n\n    @Column(name \u003d \"tel\")\n    private String tel;\n\n    @Enumerated(EnumType.STRING)\n    @Column(nullable \u003d false)\n    private Role role;\n  \n    @Column(name \u003d \"created_at\", nullable \u003d false, updatable \u003d false)\n    private LocalDateTime createdAt;\n  \n    @Column(name \u003d \"updated_at\", nullable \u003d false)\n    private LocalDateTime updatedAt;\n}\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3287)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.MetalsLspService.didOpen(MetalsLspService.scala:1097)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+
+2023.03.15 16:41:23 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:41:30 INFO  time: code lens generation in 3.96s[0m
+2023.03.15 16:41:33 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java[0m
+2023.03.15 16:41:33 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:41:43 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 16:41:45 INFO  time: code lens generation in 1.57s[0m
+2023.03.15 16:42:02 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:42:19 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/UserService.java[0m
+2023.03.15 16:42:23 INFO  time: code lens generation in 2.06s[0m
+2023.03.15 16:43:21 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/UserService.java[0m
+Mar 15, 2023 4:43:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2858
+Mar 15, 2023 4:43:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2859
+2023.03.15 16:43:45 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/UserService.java[0m
+2023.03.15 16:43:47 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/UserService.java[0m
+2023.03.15 16:43:50 INFO  time: code lens generation in 2.95s[0m
+2023.03.15 16:43:53 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/UserService.java[0m
+Mar 15, 2023 4:44:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2934
+2023.03.15 16:44:18 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:44:21 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+Mar 15, 2023 4:44:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2958
+Mar 15, 2023 4:44:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2967
+2023.03.15 16:44:26 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:45:02 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:45:09 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:45:27 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:45:34 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:45:48 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:45:58 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+Mar 15, 2023 4:45:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3187
+Mar 15, 2023 4:45:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3188
+2023.03.15 16:46:15 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+2023.03.15 16:48:16 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:48:42 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+Mar 15, 2023 4:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3320
+2023.03.15 16:50:05 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/enumeration/Role.java[0m
+2023.03.15 16:50:21 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:50:24 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java:23: error: illegal start of type
+    public User(String firstName, String lastName, String email,) {
+                                                                ^
+1 error[0m
+2023.03.15 16:50:30 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:50:32 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java:23: error: illegal start of type
+    public User(String firstName, String lastName, String email,) {
+                                                                ^
+1 error[0m
+2023.03.15 16:50:41 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:51:17 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:51:46 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:51:48 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:51:51 INFO  time: code lens generation in 3.82s[0m
+2023.03.15 16:59:51 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:59:53 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 16:59:57 INFO  time: code lens generation in 5.38s[0m
+Mar 15, 2023 4:59:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3590
+2023.03.15 17:00:04 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 17:00:19 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 17:00:21 INFO  time: code lens generation in 1.78s[0m
+2023.03.15 17:00:22 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+Mar 15, 2023 5:02:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3665
+2023.03.15 17:02:36 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 17:02:43 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 17:02:46 INFO  time: code lens generation in 2.02s[0m
+2023.03.15 17:03:14 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 17:03:16 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/User.java[0m
+2023.03.15 17:03:19 INFO  time: code lens generation in 2.13s[0m
+2023.03.15 17:03:19 INFO  time: code lens generation in 4.67s[0m
+2023.03.15 17:03:28 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/entities/User.java[0m
+Mar 15, 2023 5:03:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3738
