@@ -11,7 +11,7 @@ import com.example.app.enumeration.Role;
         @UniqueConstraint(columnNames = "username"),
         @UniqueConstraint(columnNames = "email")
 })
-public class User {
+public class UserModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -51,10 +51,10 @@ public class User {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updatedAt;
 
-    public User() {
+    public UserModel() {
     }
 
-    public User(String username, String password, String email, String firstName, String lastName, String tel,
+    public UserModel(String username, String password, String email, String firstName, String lastName, String tel,
             Role role) {
         this.username = username;
         this.password = password;

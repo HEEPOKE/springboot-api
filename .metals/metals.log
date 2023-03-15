@@ -926,3 +926,29 @@ WARNING: Unmatched cancel notification for request id 3665
 Mar 15, 2023 5:03:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 3738
 2023.03.15 17:06:42 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
+2023.03.15 17:11:39 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java[0m
+2023.03.15 17:12:05 WARN  Using indexes to guess the definition of getAllUsers[0m
+2023.03.15 17:19:08 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m
+2023.03.15 17:19:22 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/UserModel.java[0m
+2023.03.15 17:19:27 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/UserModel.java[0m
+2023.03.15 17:19:27 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/UserService.java[0m
+2023.03.15 17:19:31 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java[0m
+Mar 15, 2023 5:19:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3862
+2023.03.15 17:19:35 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/repository/UserRepository.java[0m
+2023.03.15 17:19:37 INFO  time: code lens generation in 10s[0m
+2023.03.15 17:19:37 INFO  time: code lens generation in 12s[0m
+2023.03.15 17:19:37 INFO  time: code lens generation in 13s[0m
+2023.03.15 17:19:40 INFO  time: code lens generation in 4.37s[0m
+2023.03.15 17:19:40 INFO  time: code lens generation in 5.83s[0m
+2023.03.15 17:19:41 INFO  time: code lens generation in 7.67s[0m
+2023.03.15 17:19:41 INFO  time: code lens generation in 10s[0m
+2023.03.15 17:19:41 INFO  time: code lens generation in 12s[0m
+2023.03.15 17:19:41 INFO  time: code lens generation in 2.64s[0m
+2023.03.15 17:22:10 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m
+2023.03.15 17:22:12 WARN  Running javac-semanticdb failed for file:///Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java. Output:
+/Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java:33: error: invalid method declaration; return type required
+    public Shop() {
+           ^
+1 error[0m
+2023.03.15 17:22:42 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m
