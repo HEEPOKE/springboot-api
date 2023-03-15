@@ -13,7 +13,7 @@ public class Database {
         return DataSourceBuilder.create()
                 .driverClassName(Config.getDbDriver())
                 .url(Config.getDbURL())
-                .username(Config.getDbName())
+                .username(Config.getDbUser())
                 .password(Config.getDbPassword())
                 .build();
     }
