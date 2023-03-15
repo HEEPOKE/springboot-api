@@ -728,3 +728,5 @@ WARNING: Unmatched cancel notification for request id 2177
 2023.03.15 15:34:21 INFO  time: code lens generation in 3.05s[0m
 2023.03.15 15:34:21 INFO  time: code lens generation in 4.03s[0m
 2023.03.15 15:34:21 INFO  time: code lens generation in 5.45s[0m
+Mar 15, 2023 3:39:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2516
