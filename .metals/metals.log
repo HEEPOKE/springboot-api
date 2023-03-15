@@ -212,3 +212,6 @@ WARNING: Unmatched cancel notification for request id 218
 2023.03.15 09:09:51 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
 2023.03.15 09:09:53 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/config/Database.java[0m
 2023.03.15 09:09:54 INFO  time: code lens generation in 2.35s[0m
+2023.03.15 09:37:07 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.15 09:37:12 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/DemoApplication.java[0m
+2023.03.15 09:37:18 INFO  time: code lens generation in 1.71s[0m
