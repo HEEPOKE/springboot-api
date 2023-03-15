@@ -5,11 +5,11 @@ import java.time.LocalDateTime;
 import com.example.app.enumeration.Role;
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
   
     @Column(nullable = false, unique = true)
     private String username;
