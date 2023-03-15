@@ -10,7 +10,6 @@ public class DataSourceProperties {
     private String url;
     private String username;
     private String password;
-    private String driverClass;
 
     public String getUrl() {
         return url;
@@ -34,13 +33,5 @@ public class DataSourceProperties {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getDriverClassName() {
-        return driverClass;
-    }
-
-    public void setDriverClassName(String driverClass) {
-        this.driverClass = driverClass;
     }
 }
