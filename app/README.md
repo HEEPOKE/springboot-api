@@ -14,8 +14,6 @@
 ### Project run other port
 
 ```
-./gradlew bootRun --args='--server.port=9090'
-```
 ./gradlew bootRun
 ```
 
