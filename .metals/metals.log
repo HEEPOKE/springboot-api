@@ -979,3 +979,6 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.03.16 15:21:54 WARN  Build server is not auto-connectable.[0m
 2023.03.16 15:21:54 WARN  no build tool detected in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 2023.03.16 15:21:54 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m
+2023.03.16 15:33:29 INFO  Shutting down server[0m
+2023.03.16 15:33:29 INFO  shutting down Metals[0m
+2023.03.16 15:33:30 INFO  Exiting server[0m
