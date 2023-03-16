@@ -965,3 +965,6 @@ WARNING: Unmatched cancel notification for request id 4055
 2023.03.15 17:29:55 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m
 2023.03.15 17:29:58 INFO  time: code lens generation in 1.7s[0m
 2023.03.15 17:29:58 INFO  time: code lens generation in 2.96s[0m
+2023.03.15 17:33:20 INFO  Shutting down server[0m
+2023.03.15 17:33:20 INFO  shutting down Metals[0m
+2023.03.15 17:33:20 INFO  Exiting server[0m

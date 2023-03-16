@@ -19,7 +19,7 @@ END;
 $$ LANGUAGE plpgsql;
 
 -- Create the trigger that uses the function
-CREATE TRIGGER update_users_updated_at
-  BEFORE UPDATE ON users
+CREATE TRIGGER update_shop_updated_at
+  BEFORE UPDATE ON shop
   FOR EACH ROW
   EXECUTE FUNCTION update_updated_at_column();
