@@ -12,3 +12,23 @@ Mar 16, 2023 11:46:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 4
 2023.03.16 11:46:47 INFO  time: code lens generation in 6.51s
 2023.03.16 11:46:47 INFO  time: code lens generation in 2.59s
+2023.03.16 12:06:29 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/MainController.java
+2023.03.16 12:06:33 INFO  time: code lens generation in 2.05s
+2023.03.16 12:06:33 INFO  time: code lens generation in 1.55s
+2023.03.16 12:06:42 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java
+2023.03.16 12:06:45 INFO  time: code lens generation in 1.9s
+Mar 16, 2023 12:07:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 103
+Mar 16, 2023 12:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+2023.03.16 12:08:13 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java
+2023.03.16 12:08:16 INFO  time: code lens generation in 2.38s
+2023.03.16 12:08:25 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java
+2023.03.16 12:08:26 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/services/UserService.java
+2023.03.16 12:08:27 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java
+2023.03.16 12:08:32 INFO  time: code lens generation in 4.99s
+2023.03.16 12:08:32 INFO  time: code lens generation in 2.78s
+2023.03.16 12:08:32 INFO  time: code lens generation in 4.2s
+2023.03.16 12:08:32 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java
+2023.03.16 12:08:38 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java
+2023.03.16 12:08:41 INFO  time: code lens generation in 2.72s
