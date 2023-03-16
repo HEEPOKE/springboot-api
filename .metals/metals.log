@@ -968,3 +968,14 @@ WARNING: Unmatched cancel notification for request id 4055
 2023.03.15 17:33:20 INFO  Shutting down server[0m
 2023.03.15 17:33:20 INFO  shutting down Metals[0m
 2023.03.15 17:33:20 INFO  Exiting server[0m
+2023.03.16 15:21:40 INFO  Started: Metals version 0.11.11 in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp' for client Visual Studio Code 1.76.2.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/pornpitak.a/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.16 15:21:42 INFO  time: initialize in 1.64s[0m
+2023.03.16 15:21:54 WARN  Build server is not auto-connectable.[0m
+2023.03.16 15:21:54 WARN  no build tool detected in workspace '/Users/pornpitak.a/Documents/GitHub/springboot-webapp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.03.16 15:21:54 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/models/ShopModel.java[0m

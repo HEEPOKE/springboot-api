@@ -32,3 +32,6 @@ WARNING: Unmatched cancel notification for request id 216
 2023.03.16 12:08:32 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java
 2023.03.16 12:08:38 WARN  no build target for: /Users/pornpitak.a/Documents/GitHub/springboot-webapp/app/src/main/java/com/example/app/controllers/UserController.java
 2023.03.16 12:08:41 INFO  time: code lens generation in 2.72s
+2023.03.16 15:20:47 INFO  Shutting down server
+2023.03.16 15:20:47 INFO  shutting down Metals
+2023.03.16 15:20:48 INFO  Exiting server
